@@ -77,6 +77,8 @@ class Graph extends Component<IProps, {}> {
           top_ask_price: el.top_ask && el.top_ask.price || 0,
           top_bid_price: el.top_bid && el.top_bid.price || 0,
           timestamp: el.timestamp,
+
+          
         };
       }));
     }
